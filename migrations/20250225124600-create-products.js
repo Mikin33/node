@@ -16,7 +16,7 @@ module.exports = {
         allowNull: true,
       },
       price: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.INTEGER, // Use Sequelize.FLOAT if price needs decimal
         allowNull: false,
         defaultValue: 0,
       },
@@ -28,13 +28,13 @@ module.exports = {
       createdAt: {
         type: Sequelize.DATE,
         allowNull: false,
-        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
+        defaultValue: Sequelize.fn("NOW"),
       },
       updatedAt: {
         type: Sequelize.DATE,
         allowNull: false,
-        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP"),
-      }
+        defaultValue: Sequelize.fn("NOW"), 
+      },
     });
   },
 
