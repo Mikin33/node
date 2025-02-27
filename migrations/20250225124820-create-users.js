@@ -23,17 +23,7 @@ module.exports = {
       password: {
         type: Sequelize.STRING,
         allowNull: false,
-      },
-      createdAt: {
-        type: Sequelize.DATE,
-        allowNull: false,
-        defaultValue: Sequelize.fn("NOW"), // ✅ Corrected for PostgreSQL
-      },
-      updatedAt: {
-        type: Sequelize.DATE,
-        allowNull: false,
-        defaultValue: Sequelize.fn("NOW"), // ✅ PostgreSQL does not support ON UPDATE
-      },
+      }
     });
   },
 
