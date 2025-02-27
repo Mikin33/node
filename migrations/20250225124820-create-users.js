@@ -17,7 +17,7 @@ module.exports = {
         unique: true,
       },
       address: {
-        type: Sequelize.STRING,
+        type: Sequelize.STRING, // Change to Sequelize.TEXT if long addresses are expected
         allowNull: false,
       },
       password: {
@@ -27,13 +27,13 @@ module.exports = {
       createdAt: {
         type: Sequelize.DATE,
         allowNull: false,
-        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP"),
+        defaultValue: Sequelize.fn("NOW"), // ✅ Corrected for PostgreSQL
       },
       updatedAt: {
         type: Sequelize.DATE,
         allowNull: false,
-        defaultValue: Sequelize.literal("CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP"),
-      }
+        defaultValue: Sequelize.fn("NOW"), // ✅ PostgreSQL does not support ON UPDATE
+      },
     });
   },
 
