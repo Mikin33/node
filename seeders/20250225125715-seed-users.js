@@ -7,8 +7,7 @@ let usersData = JSON.parse(fs.readFileSync(filePath, "utf-8"));
 
 // ✅ Ensure createdAt & updatedAt are included (for PostgreSQL)
 usersData = usersData.map(user => ({
-  ...user,
-  password: bcrypt.hashSync(user.password, 10), 
+  ...user
 }));
 
 module.exports = {
