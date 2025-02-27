@@ -2,7 +2,13 @@ const fs = require("fs");
 const path = require("path");
 
 const filePath = path.join(__dirname, "../data/products.json");
-const productsData = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+let productsData = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+
+productsData = productsData.map(product => ({
+  ...product,
+  createdAt: new Date(),
+  updatedAt: new Date()
+}));
 
 module.exports = {
   async up(queryInterface, Sequelize) {
