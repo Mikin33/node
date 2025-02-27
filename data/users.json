@@ -4,6 +4,8 @@
     "name": "John Doe",
     "email": "john@example.com",
     "address": "test address",
-    "password": "$2b$10$nXEkGXp7esRqtzqSw6eG5e3lgFzgqsvqGD9zRhYir2IBWxt0YyKdu"
+    "password": "$2b$10$nXEkGXp7esRqtzqSw6eG5e3lgFzgqsvqGD9zRhYir2IBWxt0YyKdu",
+    "createdAt": "2025-02-28T00:00:00.000Z",
+    "updatedAt": "2025-02-28T00:00:00.000Z"
   }
 ]
