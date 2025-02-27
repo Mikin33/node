@@ -3,72 +3,54 @@
     "name": "Laptop",
     "description": "Powerful gaming laptop",
     "price":10,
-    "quantity": 10,
-    "createdAt": "2025-02-28T00:00:00.000Z",
-    "updatedAt": "2025-02-28T00:00:00.000Z"
+    "quantity": 10
   },
   {
     "name": "Smartphone",
     "description": "Latest Android phone",
     "price":15,
-    "quantity": 0,
-    "createdAt": "2025-02-28T00:00:00.000Z",
-    "updatedAt": "2025-02-28T00:00:00.000Z"
+    "quantity": 0
   },
   {
     "name": "Headphones",
     "description": "Noise-cancelling headphones",
     "price":20,
-    "quantity": 15,
-    "createdAt": "2025-02-28T00:00:00.000Z",
-    "updatedAt": "2025-02-28T00:00:00.000Z"
+    "quantity": 15
   },
   {
     "name": "Smartwatch",
     "description": "Track fitness and notifications",
     "price":25,
-    "quantity": 6,
-    "createdAt": "2025-02-28T00:00:00.000Z",
-    "updatedAt": "2025-02-28T00:00:00.000Z"
+    "quantity": 6
   },
   {
     "name": "Gaming Mouse",
     "description": "High precision gaming mouse",
     "price":30,
-    "quantity": 12,
-    "createdAt": "2025-02-28T00:00:00.000Z",
-    "updatedAt": "2025-02-28T00:00:00.000Z"
+    "quantity": 12
   },
   {
     "name": "Mechanical Keyboard",
     "description": "RGB mechanical keyboard",
     "price":35,
-    "quantity": 12,
-    "createdAt": "2025-02-28T00:00:00.000Z",
-    "updatedAt": "2025-02-28T00:00:00.000Z"
+    "quantity": 12
   },
   {
     "name": "Tablet",
     "description": "Portable touchscreen tablet",
     "price":40,
-    "quantity": 5,
-    "createdAt": "2025-02-28T00:00:00.000Z",
-    "updatedAt": "2025-02-28T00:00:00.000Z"
+    "quantity": 5
   },
   {
     "name": "Monitor",
     "description": "27-inch 4K UHD display",
     "price":45,
-    "quantity": 8,
-    "createdAt": "2025-02-28T00:00:00.000Z",
-    "updatedAt": "2025-02-28T00:00:00.000Z"
+    "quantity": 8
   },
   {
     "name": "Printer",
     "description": "Wireless all-in-one printer",
     "price":50,
-    "quantity": 14,
-    "createdAt": "2025-02-28T00:00:00.000Z",
-    "updatedAt": "2025-02-28T00:00:00.000Z"
+    "quantity": 14
   }
 ]
